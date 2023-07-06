@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>My Compassion</title>
+</head>
+<style>
+  .menu-hidden {
+    display: none;
+  }
+
+  .menu-visible {
+    display: block;
+  }
+
+  .image {
+    background-image: url(Cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+  }
+</style>
+
+<body>
+
+  <section>
+
+    <div class="flex">
+      <!-- Sidebar -->
+      <!-- <aside id="sidebar" class="w-[300px] text-white menu-hidden"> -->
+      <!-- Profile Section
+        <div class="h-full px-3 py-4 bg-[rgb(0,94,184)] text-white">
+          <div class=" ml-[20px] mt-[25px]">
+            <span class="text-[25px] text-[yellow]">my<Span class="text-white">Compassion</Span></span>
+          </div>
+
+          <div class=" mt-[25px]">
+            <a href="#" class="flex items-center ml-[20px] mb-5">
+              <img src="b99e83c5-1f16-432e-b459-d6aeb2c4418d.png" class="w-[64px] h-[64px] mr-3  "
+                alt="Flowbite Logo" />
+              <span class="text-[18px]">Hi Monica <br> <span class="text-[12px]">veiw account detail</span></span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="ml-[25px]" width="14" height="24" viewBox="0 0 14 24">
+                <path id="action-right"
+                  d="M15.98.369a1.338,1.338,0,0,0,0,1.919l10.2,9.7-10.2,9.7a1.281,1.281,0,0,0-.4.959,1.433,1.433,0,0,0,.4.959A1.513,1.513,0,0,0,18,23.6L29.17,12.945a1.338,1.338,0,0,0,0-1.919L18,.4A1.478,1.478,0,0,0,15.98.369Z"
+                  transform="translate(-15.575 0.013)" fill="#c0d7ed" fill-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+
+          <ul class="space-y-2 font-medium">
+            <li>
+              <a href="#"
+                class="flex items-center p-2 pl-[30px] rounded-lg text-white dark:text-white hover:bg-slate-800 dark:hover:bg-gray-700">
+                <svg aria-hidden="true" class="w-7 h-7   transition duration-75 hover:text-[yellow]" fill="currentColor"
+                  viewBox="0 0 24 24">
+                  <path id="np_dashboard_665064_000000"
+                    d="M24,1.029A1.031,1.031,0,0,0,22.971,0H13.989A1.031,1.031,0,0,0,12.96,1.029V12.651a1.032,1.032,0,0,0,1.029,1.029h8.983A1.031,1.031,0,0,0,24,12.651ZM1.029,0A1.055,1.055,0,0,0,0,1.029v6.24A1.055,1.055,0,0,0,1.029,8.3h8.983A1.055,1.055,0,0,0,11.04,7.269V1.029A1.055,1.055,0,0,0,10.011,0ZM11.04,11.349a1.031,1.031,0,0,0-1.029-1.029H1.029A1.055,1.055,0,0,0,0,11.349V22.971A1.031,1.031,0,0,0,1.029,24h8.983a1.031,1.031,0,0,0,1.029-1.029ZM24,16.731A1.01,1.01,0,0,0,22.971,15.7H13.989a1.01,1.01,0,0,0-1.029,1.029v6.24A1.01,1.01,0,0,0,13.989,24h8.983A1.01,1.01,0,0,0,24,22.971Z"
+                    fill="#fff" </svg>
+                    <span class="ml-3">My Hub</span>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                class="flex items-center p-2 pl-[30px] rounded-lg text-white dark:text-white hover:bg-slate-800 dark:hover:bg-gray-700">
+                <svg aria-hidden="true"
+                  class="flex-shrink-0 w-7 h-7 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z">
+                  </path>
+                </svg>
+                <span class="flex-1 ml-3 whitespace-nowrap">Kanban</span>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                class="flex items-center p-2 pl-[30px] rounded-lg text-white dark:text-white hover:bg-slate-800 dark:hover:bg-gray-700">
+                <svg aria-hidden="true"
+                  class="flex-shrink-0 w-7 h-7 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l2-2a1 1 0 00-1.414-1.414L11 7.586V3a1 1 0 10-2 0v4.586l-.293-.293z">
+                  </path>
+                  <path
+                    d="M3 5a2 2 0 012-2h1a1 1 0 010 2H5v7h2l1 2h4l1-2h2V5h-1a1 1 0 110-2h1a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V5z">
+                  </path>
+                </svg>
+                <span class="flex-1 ml-3 whitespace-nowrap">Inbox</span>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                class="flex items-center p-2 pl-[30px] rounded-lg text-white dark:text-white hover:bg-slate-800 dark:hover:bg-gray-700">
+                <svg aria-hidden="true"
+                  class="flex-shrink-0 w-7 h-7 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd">
+                  </path>
+                </svg>
+                <span class="flex-1 ml-3 whitespace-nowrap">Users</span>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                class="flex items-center p-2 pl-[30px] rounded-lg text-white dark:text-white hover:bg-slate-800 dark:hover:bg-gray-700">
+                <svg aria-hidden="true"
+                  class="flex-shrink-0 w-7 h-7 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <span class="flex-1 ml-3 whitespace-nowrap">Products</span>
+              </a>
+            </li>
+          </ul>
+          <hr class="mt-[20px]">
+          <div class="ml-[30px] gap-2.5 mt-[10px] ">
+            <ul>
+              <li class="p-2"><a href="#">Help & FAQs</a> </li>
+
+              <li class="p-2"><a href="#"> Download the app</a></li>
+
+              <li class="p-2"><a href="#">Give feedback</a></li>
+
+              <li class="p-2"><a href="#">Contact us</a> </li>
+            </ul>
+          </div>
+          <hr class="mt-[20px]">
+          <div class="ml-[30px]  mt-[20px]">
+            <ul>
+              <li class="text-[yellow] p-2"> More from Compassion</li>
+              <li class="p-2"> <a href="">Home</a></li>
+              <li class="p-2"> <a href="">Pray & Connact</a></li>
+              <li class="p-2"> <a href="">Get Involved</a></li>
+              <li class="p-2"> <a href="">Donate</a></li>
+              <li class="p-2"> <a href="">Abouts us</a></li>
+            </ul>
+          </div>
+        </div>
+      </aside> -->
+
+
+
+      <!-- Content -->
+
+
+      <div class="w-full">
+        <!-- <header class=" flex justify-between items-center ">
+           
+
+          <button id="sidebarToggle" class="  text-[blue] pl-2 rounded focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+
+
+
+
+          <img class="w-[200px] " src="pngfind.com-compassion-international-logo-png-4080813.png" alt="">
+
+
+
+
+          <a href="#" class="flex mr-[50px] gap-[20px] w-[80px]"><svg fill="#000000" version="1.1" id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 444.202 444.202" xml:space="preserve">
+              <path d="M405.939,80.996h-94.071c3.971-7.641,6.229-16.309,6.229-25.498C318.097,24.896,293.2,0,262.599,0
+               c-15.963,0-30.364,6.784-40.498,17.608C211.967,6.784,197.566,0,181.603,0c-30.602,0-55.498,24.896-55.498,55.498
+               c0,9.189,2.259,17.857,6.229,25.498H38.263c-8.284,0-15,6.716-15,15v62.889c0,7.494,5.501,13.687,12.682,14.803v255.515
+               c0,8.284,6.716,15,15,15h342.311c8.284,0,15-6.716,15-15V173.688c7.181-1.116,12.682-7.309,12.682-14.803V95.996
+               C420.939,87.712,414.223,80.996,405.939,80.996z M390.939,143.885H232.101v-32.889h158.837V143.885z M262.599,30
+               c14.06,0,25.498,11.438,25.498,25.498s-11.438,25.498-25.498,25.498h-25.498V55.498C237.101,41.438,248.539,30,262.599,30z
+                M156.105,55.498c0-14.06,11.438-25.498,25.498-25.498s25.498,11.438,25.498,25.498v25.498h-25.498
+               C167.544,80.996,156.105,69.558,156.105,55.498z M53.263,110.996h158.838v32.889H53.263V110.996z M65.946,173.885h146.156v240.317
+               H65.946V173.885z M378.257,414.202H232.101V173.885h146.155V414.202z" />
+            </svg>
+            <?xml version="1.0" ?><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: none;
+                  }
+                </style>
+              </defs>
+              <title />
+              <g data-name="Layer 2" id="Layer_2">
+                <path
+                  d="M16,29a4,4,0,0,1-4-4,1,1,0,0,1,1-1h6a1,1,0,0,1,1,1A4,4,0,0,1,16,29Zm-1.73-3a2,2,0,0,0,3.46,0Z" />
+                <path d="M18,7H14a1,1,0,0,1-1-1,3,3,0,0,1,6,0A1,1,0,0,1,18,7ZM16,5h0Z" />
+                <path
+                  d="M27,26H5a1,1,0,0,1-1-1,7,7,0,0,1,3-5.75V14a9,9,0,0,1,8.94-9h.11a9,9,0,0,1,9,9v5.25A7,7,0,0,1,28,25h0A1,1,0,0,1,27,26ZM6.1,24H25.9a5,5,0,0,0-2.4-3.33,1,1,0,0,1-.5-.87V14A7,7,0,1,0,9,14v5.8a1,1,0,0,1-.5.87A5,5,0,0,0,6.1,24Z" />
+              </g>
+              <g id="frame">
+                <rect class="cls-1" height="32" width="32" />
+              </g>
+            </svg>
+          </a>
+
+        </header> -->
+
+        <!-- banner -->
+        <div class="image grid">
+
+        </div>
+
+        <!-- container content  -->
+        <div class="bg-gradient-to-b from-[#EEF7F9] to-[#EEF7F900] h-[400px] ">
+
+          <div class="md:w-[1050px] mx-auto pt-[15px]">
+
+            <div class="md:flex item-center bg-[rgb(51,149,38)] md:p-3 rounded md:justify-between">
+              <i class="fa-sharp fa-solid fa-gift text-white text-5xl flex justify-center"></i>
+              <span class="text-white text-[18px] mr-[100px] items-center">Complete in proaress gifts? <br><span
+                  class="text-white text-[14px]">You have three in your giving basket which are still to send. Would you
+                  like to complete your giving now?</span></span>
+              <button class="rounded border-2 p-3 text-white text-[15px] flex justify-center mx-auto">View
+                summary</button>
+            </div>
+            <div class="p-3">
+              <h1 class="text-[26px] font-bold text-[rgb(0,94,184)]">Give to vour Snonsored Child</h1>
+              <h1 class=""> as justo odio, dapibus ac racalisis in, egestas egel quen</h1>
+              <!-- component -->
+
+              <div class="grid md:flex items-center justify-center gap-2 ">
+                <div class="flex mt-[20px] md:p-9 card">
+                  <div class=" hover:border border-emerald-500 rounded-lg py-3 w-[259px] h-[318px]">
+                    <div class="photo-wrapper p-2">
+                      <img class="w-[160px] h-[160px] rounded-full mx-auto"
+                        src="bb6afe79-15af-414a-b150-4f89e9288a91.png" alt="Kerry-joanna">
+                    </div>
+                    <div class="">
+                      <h3 class="text-center text-[22px] text-[rgb(66,85,99)] font-semibold">Kerry-joanna</h3>
+                      <div class="text-center text-[rgb(66,85,99)]">
+                        <h1> you last gave 15 days ago</h1>
+                      </div>
+                      <div class="text-center my-3">
+                        <button class="bg-[rgb(51,149,38)] text-[15px] py-2 px-16 rounded">Give a gift</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex mt-[20px] ">
+                  <div class=" hover:border-2 border-emerald-500 rounded-lg py-3 w-[259px] h-[318px]">
+                    <div class="photo-wrapper p-2">
+                      <img class="w-[160px] h-[160px] rounded-full mx-auto"
+                        src="bb6afe79-15af-414a-b150-4f89e9288a91.png" alt="Kerry-joanna">
+                    </div>
+                    <div class="">
+                      <h3 class="text-center text-[22px] text-[rgb(66,85,99)] font-semibold">Kerry-joanna</h3>
+                      <div class="text-center text-[rgb(66,85,99)]">
+                        <h1> you last gave 15 days ago</h1>
+                      </div>
+                      <div class="text-center my-3">
+                        <button class="bg-[rgb(51,149,38)] text-[15px] py-2 px-16 rounded">Give a gift</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex mt-[20px] ">
+                  <div class=" hover:border-2 border-emerald-500 rounded-lg py-3 w-[259px] h-[318px]">
+                    <div class="photo-wrapper p-2">
+                      <img class="w-[160px] h-[160px] rounded-full mx-auto"
+                        src="bb6afe79-15af-414a-b150-4f89e9288a91.png" alt="Kerry-joanna">
+                    </div>
+                    <div class="">
+                      <h3 class="text-center text-[22px] text-[rgb(66,85,99)] font-semibold">Kerry-joanna</h3>
+                      <div class="text-center text-[rgb(66,85,99)]">
+                        <h1> you last gave 15 days ago</h1>
+                      </div>
+                      <div class="text-center my-3">
+                        <button class="bg-[rgb(51,149,38)] text-[15px] py-2 px-16 rounded">Give a gift</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex mt-[20px] ">
+                  <div class=" hover:border-2 border-emerald-500 rounded-lg py-3 w-[259px] h-[318px]">
+                    <div class="photo-wrapper p-2">
+                      <img class="w-[160px] h-[160px] rounded-full mx-auto"
+                        src="bb6afe79-15af-414a-b150-4f89e9288a91.png" alt="Kerry-joanna">
+                    </div>
+                    <div class="">
+                      <h3 class="text-center text-[22px] text-[rgb(66,85,99)] font-semibold">Kerry-joanna</h3>
+                      <div class="text-center text-[rgb(66,85,99)]">
+                        <h1> you last gave 15 days ago</h1>
+                      </div>
+                      <div class="text-center my-3">
+                        <button class="bg-[rgb(51,149,38)] text-[15px] py-2 px-16 rounded">Give a gift</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <hr>
+            <div>
+              <div class=" items-center space-y-2 text-xs sm:space-y-0 sm:space-x-3 md:flex justify-between mt-[15px]">
+                <div class="">
+                  <h1 class="text-[26px] text-[rgb(0,94,184)] font-bold p-2">Current needs</h1>
+                  <h1 class="text-[16px] p-2">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</h1>
+                </div>
+                <div class="space-x-1 items-center flex justify-center">
+                  <button title="previous" type="button"
+                    class="inline-flex items-center bg-[rgb(127,174,219)] justify-center w-8 h-8 py-0 border rounded-md shadow">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" class="w-4">
+                      <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                  </button>
+                  <button title="next" type="button"
+                    class="inline-flex bg-[rgb(127,174,219)] items-center justify-center w-8 h-8 py-0 border rounded-md shadow">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" class="w-4">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid items-center justify-center md:flex md:gap-2 gap-5  p-2">
+                <div style="background-image: url(/img1/pexels-photo-7863487.jpeg); background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                height: 259px; width: 259px;" class=" rounded">
+                  <div class="item-end flex justify-center">
+
+
+                    <h1 class="text-[20px] text-white ">Chritmas Appeal</h1>
+                  </div>
+                </div>
+                <div style="background-image: url(img1/pexels-olanma-etigweuwa-3867469.jpg); background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                height: 259px; width: 259px;" class=" rounded">
+
+                </div>
+                <div style="background-image:url(img1/223570812_192643896217694_5786516649951281500_n-850x1024.jpg) ; background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                height: 259px; width: 259px;" class=" rounded">
+
+                </div>
+                <div style="background-image: url( img1/1920_gettyimages-1208316363.jpg); background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                height: 259px; width: 259px;" class=" rounded">
+
+                </div>
+
+
+              </div>
+            </div>
+
+            <hr class="mt-[20px]">
+            <div>
+
+
+              <div class=" items-center space-y-2 text-xs sm:space-y-0 sm:space-x-3 md:flex justify-between mt-[15px]">
+                <div class="">
+                  <h1 class="text-[26px] text-[rgb(0,94,184)] font-bold p-2">Compassion Interventions</h1>
+                  <h1 class="text-[16px] p-2">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</h1>
+                </div>
+                <div class="space-x-1  items-center flex justify-center">
+                  <button title="previous" type="button"
+                    class="inline-flex items-center bg-[rgb(127,174,219)] justify-center w-8 h-8 py-0 border rounded-md shadow">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" class="w-4">
+                      <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                  </button>
+                  <button title="next" type="button"
+                    class="inline-flex bg-[rgb(127,174,219)] items-center justify-center w-8 h-8 py-0 border rounded-md shadow">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" class="w-4">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid items-center justify-center md:flex md:gap-2 gap-5  p-2">
+                <div style="background-image: url(p09m29ll.jpg); background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                height: 259px; width: 259px;" class=" rounded">
+                  <h1 class="text-[20px] text-white  flex justify-center grid   place-items-end items-end">Chritmas
+                    Appeal</h1>
+
+                </div>
+                <div style="background-image: url(p09m29ll.jpg); background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                height: 259px; width: 259px;" class=" rounded">
+
+                </div>
+                <div style="background-image: url(p09m29ll.jpg); background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                height: 259px; width: 259px;" class=" rounded">
+
+                </div>
+                <div style="background-image: url(p09m29ll.jpg); background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                height: 259px; width: 259px;" class=" rounded">
+
+                </div>
+              </div>
+            </div>
+
+            <hr class="mt-[20px]">
+
+            <div>
+              <div class="">
+                <h1 class="text-[26px] text-[rgb(0,94,184)] font-bold p-2">Compassion Interventions</h1>
+                <h1 class="text-[16px] p-2">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</h1>
+              </div>
+            </div>
+
+
+            <div class="p-5">
+
+              <div class=" flex justify-between py-4">
+                <div class="flex gap-5">
+                  <div>
+                    <img src="bb6afe79-15af-414a-b150-4f89e9288a91.png" alt="">
+                  </div>
+                  <div class="items-center flex">
+                    <i class="fa-solid fa-cake-candles text-4xl text-[#339526] flex   items-center"></i>
+                  </div>
+                  <div class="">
+                    <h1 class="text-[blue] text-[rgb(0,94,184)]">today</h1>
+                    <h1 class="text-[16px] text-[rgb(66,85,99)] font-bold">Birthday gifts to serglo</h1>
+                    <h1 class="text-[13px] text-[rgb(118,134,146)]">Your £45 birthday gift to Sergio is on its way.</h1>
+                  </div>
+                </div>
+                <div class="flex items-center   gap-3">
+                  <h1 class="text-[16px] font-bold text-[rgb(118,134,146)]">follow this gift</h1>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24">
+                    <path id="action-right"
+                      d="M15.98.369a1.338,1.338,0,0,0,0,1.919l10.2,9.7-10.2,9.7a1.281,1.281,0,0,0-.4.959,1.433,1.433,0,0,0,.4.959A1.513,1.513,0,0,0,18,23.6L29.17,12.945a1.338,1.338,0,0,0,0-1.919L18,.4A1.478,1.478,0,0,0,15.98.369Z"
+                      transform="translate(-15.575 0.013)" fill="#c0d7ed" fill-rule="evenodd" />
+                  </svg>
+
+                </div>
+
+              </div>
+
+              <hr>
+
+              <div class="flex justify-between py-4">
+                <div class="flex gap-5">
+                  <div>
+                    <img src="bb6afe79-15af-414a-b150-4f89e9288a91.png" alt="">
+                  </div>
+                  <div class="items-center flex">
+                    <i class="fa-solid fa-cake-candles text-[#339526] text-4xl flex   items-center"></i>
+                  </div>
+                  <div class="">
+                    <h1 class="text-[blue] text-[rgb(0,94,184)]">2 day ago</h1>
+                    <h1 class="text-[16px] text-[rgb(66,85,99)] font-bold">Individual gift to Emmanuella</h1>
+                    <h1 class="text-[13px] text-[rgb(118,134,146)]">Your £45 birthday gift to Sergio is on its way.</h1>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <h1 class="text-[16px] font-bold text-[#339526]">Recevied</h1>
+                </div>
+
+              </div>
+
+              <hr>
+
+              <div class="flex justify-between py-4">
+                <div class="flex gap-5">
+                  <div>
+                    <img src="bb6afe79-15af-414a-b150-4f89e9288a91.png" alt="">
+                  </div>
+                  <div class="items-center flex">
+                    <i class="fa-solid fa-cake-candles text-4xl text-[#339526]  flex   items-center"></i>
+                  </div>
+                  <div class="">
+                    <h1 class="text-[blue] text-[rgb(0,94,184)]">1 week ago</h1>
+                    <h1 class="text-[16px] text-[rgb(66,85,99)] font-bold">Christmas Appeal donation</h1>
+                    <h1 class="text-[13px] text-[rgb(118,134,146)]">Your £45 birthday gift to Sergio is on its way.</h1>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <h1 class="text-[16px] font-bold text-[#339526]">Recevied</h1>
+                  
+
+                </div>
+
+              </div>
+
+              <hr>
+
+              <div class="flex justify-between py-4">
+                <div class="flex gap-5">
+                  <div>
+                    <img src="bb6afe79-15af-414a-b150-4f89e9288a91.png" alt="">
+                  </div>
+                  <div class="items-center flex">
+                    <i class="fa-solid fa-cake-candles text-4xl text-[#339526] flex   items-center"></i>
+                  </div>
+                  <div class="">
+                    <h1 class="text-[blue] text-[rgb(0,94,184)]">3 week ago</h1>
+                    <h1 class="text-[16px] text-[rgb(66,85,99)] font-bold">Birthday gift to Johanna</h1>
+                    <h1 class="text-[13px] text-[rgb(118,134,146)]">Your £45 birthday gift to Sergio is on its way.</h1>
+                  </div>
+                </div>
+                <div class="flex items-center gap-3">
+                  <h1 class="text-[16px] font-bold text-[rgb(118,134,146)]">follow this gift</h1>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24">
+                    <path id="action-right"
+                      d="M15.98.369a1.338,1.338,0,0,0,0,1.919l10.2,9.7-10.2,9.7a1.281,1.281,0,0,0-.4.959,1.433,1.433,0,0,0,.4.959A1.513,1.513,0,0,0,18,23.6L29.17,12.945a1.338,1.338,0,0,0,0-1.919L18,.4A1.478,1.478,0,0,0,15.98.369Z"
+                      transform="translate(-15.575 0.013)" fill="#c0d7ed" fill-rule="evenodd" />
+                  </svg>
+
+                </div>
+
+              </div>
+
+              <hr>
+
+              <div class="flex justify-between py-4">
+                <div class="flex gap-5">
+                  <div>
+                    <img src="bb6afe79-15af-414a-b150-4f89e9288a91.png" alt="">
+                  </div>
+                  <div class="items-center flex">
+                    <i class="fa-solid fa-cake-candles text-4xl text-[#339526] flex items-center"></i>
+                  </div>
+                  <div class="">
+                    <h1 class="text-[blue] text-[rgb(0,94,184)] text-[13px] ">4 week ago</h1>
+                    <h1 class="text-[16px] text-[rgb(66,85,99)] font-bold">Family gift to Emmanuella</h1>
+                    <h1 class="text-[13px] text-[rgb(118,134,146)]">Your £45 birthday gift to Sergio is on its way.</h1>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <h1 class="text-[16px] font-bold text-[#339526]">Recevied</h1>
+                </div>
+
+              </div>
+
+               
+
+               
+
+
+ 
+
+            </div>
+
+
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    document.getElementById('sidebarToggle').addEventListener('click', function () {
+      var sidebar = document.getElementById('sidebar');
+      if (sidebar.classList.contains('menu-hidden')) {
+        sidebar.classList.remove('menu-hidden');
+        sidebar.classList.add('menu-visible');
+      } else {
+        sidebar.classList.remove('menu-visible');
+        sidebar.classList.add('menu-hidden');
+      }
+    });
+  </script>
+</body>
+
+</html>
